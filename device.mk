@@ -442,7 +442,7 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Inherit vendor
-$(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sweet_k6a/sweet_k6a-vendor.mk)
 
 # Inherit MIUI Camera
-$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/sweet_k6a-miuicamera/products/miuicamera.mk)

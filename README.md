@@ -1,9 +1,9 @@
 Copyright (C) 2021 - The LineageOS Project
 
-Device tree for Xiaomi Redmi Note 10 Pro
+Device tree for Xiaomi Redmi Note 12 Pro 4G
 ==============
 
-The Xiaomi Redmi Note 10 Pro (codenamed "sweet / sweetin") are mid range smartphones from Xiaomi.
+The Xiaomi Redmi Note 12 Pro 4G (codenamed "sweet_k6a) is mid range smartphones from Xiaomi.
 
 ## Device specifications
 
@@ -22,8 +22,8 @@ Basic   | Spec Sheet
 | Rear camera 3 | 5 MP, f/2.4, (macro)                               |
 | Rear camera 4 | 2 MP, f/2.4, (depth)                               |
 | Front Camera | 16 MP, f/2.5, Panorama, 1080p@30fps                 |
-| Sensors | Fingerprint (side-mounted), accelerometer, gyro, proximity, compass |
+| Sensors | Fingerprint (side-mounted), accelerometer, gyro, ultrasound proximity, compass |
 | Release Date | March 2021                                          |
 
 ## Device picture
-![Xiaomi Redmi Note 10 Pro](https://i.imgur.com/t3byGh9.png "Xiaomi Redmi Note 10 Pro")
+![Xiaomi Redmi Note 12 Pro 4G](https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1681210731.51053703.png "Xiaomi Redmi Note 12 Pro 4G")

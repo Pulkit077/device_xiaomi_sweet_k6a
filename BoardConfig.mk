@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/sweet
+DEVICE_PATH := device/xiaomi/sweet_k6a
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_DUP_SYSPROP := true
@@ -27,7 +27,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
+TARGET_OTA_ASSERT_DEVICE := sweet,sweetin,sweet_k6a
 
 # Audio
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
@@ -71,7 +71,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/sweet_user_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet_k6a
 KERNEL_LD := LD=ld.lld
 
 # Lineage Health
@@ -188,7 +188,7 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
--include vendor/xiaomi/sweet/BoardConfigVendor.mk
+-include vendor/xiaomi/sweet_k6a/BoardConfigVendor.mk
 
 # Inherit from proprietary files for miuicamera
--include vendor/xiaomi/sweet-miuicamera/products/board.mk
+-include vendor/xiaomi/sweet_k6a-miuicamera/products/board.mk
