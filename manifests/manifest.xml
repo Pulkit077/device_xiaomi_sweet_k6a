@@ -173,21 +173,6 @@
         <fqname>@1.0::IAnt/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>com.fingerprints.extension</name>
-        <transport>hwbinder</transport>
-        <version>3.0</version>
-        <interface>
-            <name>IFingerprintNavigation</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IFingerprintSensorTest</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@3.0::IFingerprintNavigation/default</fqname>
-        <fqname>@3.0::IFingerprintSensorTest/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>com.qualcomm.qti.dpm.api</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
