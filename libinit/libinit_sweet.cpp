@@ -45,11 +45,11 @@ static const variant_info_t sweet_global_info = {
 
     .brand = "Redmi",
     .device = "sweet",
-    .marketname = "Redmi Note 10 Pro",
-    .model = "M2101K6G",
-    .build_fingerprint = "Redmi/sweet_global/sweet:13/RKQ1.210614.002/V14.0.1.0.TKFMIXM:user/release-keys",
-    .build_description = "sweet-user 13 TKQ1.221013.002 V14.0.1.0.TKFMIXM release-keys",
-    .mod_device = "sweet_global",
+    .marketname = "Redmi Note 12 Pro",
+    .model = "2209116AG",
+    .build_fingerprint = "Redmi/sweet_global2/sweet:11/RKQ1.210614.002/V14.0.5.0.THGMIXM:user/release-keys",
+    .build_description = "sweet_global2-user 13 TKQ1.221114.001 V14.0.5.0.THGMIXM release-keys",
+    .mod_device = "sweet_k6a_global",
 
     .nfc = true,
 };
