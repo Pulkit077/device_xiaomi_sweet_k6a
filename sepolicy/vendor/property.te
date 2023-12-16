@@ -6,3 +6,6 @@ vendor_public_prop(vendor_fp_prop);
 
 # Power HAL
 vendor_internal_prop(vendor_power_prop);
+
+# WiFi / BT
+vendor_internal_prop(vendor_wifibtmac_prop);

@@ -21,5 +21,9 @@ ro.vendor.oem.meid                                       u:object_r:vendor_devic
 ro.vendor.oem.sno                                        u:object_r:vendor_sno_prop:s0
 ro.vendor.oem.psno                                       u:object_r:vendor_sno_prop:s0
 
+# WiFi / BT
+ro.vendor.ril.oem.btmac                                  u:object_r:vendor_wifibtmac_prop:s0
+ro.vendor.ril.oem.wifimac                                u:object_r:vendor_wifibtmac_prop:s0
+
 # Xiaomi thermal daemon
 vendor.sys.thermal.                                      u:object_r:vendor_thermal_normal_prop:s0
