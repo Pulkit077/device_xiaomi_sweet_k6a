@@ -1,2 +1,6 @@
 allow vendor_wcnss_service vendor_data_file:dir create_dir_perms;
 allow vendor_wcnss_service vendor_data_file:file create_file_perms;
+
+# allow cnss to to r&w WiFi mac via property
+set_prop(vendor_wcnss_service, vendor_wifibtmac_prop)
+get_prop(vendor_wcnss_service, vendor_wifibtmac_prop)
